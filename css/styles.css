@@ -117,6 +117,12 @@ nav{
     align-items: center;
     
 }
+.service-section{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media (max-width: 768px){
     .nav-menu{
         position: fixed;
