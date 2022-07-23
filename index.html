@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYIKANYING</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="icon">
+                    <a href="https://www.github.com/Ayikanying-ux" class="nav-logo">
+                        <i class="fa fa-github" style="font-size:24px"></i>
+                    </a>
+                    <a href="https://twitter.com/AAyikanying" class="nav-logo">
+                        <i class="fa fa-twitter" style="font-size:24px"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/allan-ayikanying-a260ba1bb" class="nav-logo">
+                        <i class="fa fa-linkedin" style="font-size:24px"></i>
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
+                </ul>
+                <div class="humburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="showcase" id="home">
+        <div class="container">
+            <div class="showcase-content">
+                <div class="title">
+                    <h1 class="name">Ayikanying Allan</h1>
+                    <h2>Software Developer | Fullstack Developer</h2>
+                </div>
+                <div class="about">
+                    <p>A software engineer helping startups and businesses turn ideas <br>to real world solutions using soft skills and technical skills. Available <br>for consultations and offers ~ Using: Django, Python, JavaScript, C, Shell scripting</p>
+                </div>
+                <div class="connect">
+                    <a href="">Connect with me</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-section" id="about">
+        <div class="container">
+            <div class="about">
+                <h2>About Me <span><i class="material-icons" style="font-size:36px">arrow_forward</i></span></h2>
+                <p>
+                    Everyone one have passion for software development but the thing is can you do what is required of you ? I love coding and I love bringing ideas into real world solutions.
+                    Having started to code 2 years back, I realised that I need to do whatever it takes to be a good software developer and decided to take several courses on software development.
+                    I have done Projects on freeCodeCamp, taken courses from Zero To Mastery Academy and currently am doing full stack software engineering at alx_africa based in Nairobi, here I am doing project based assignments
+                    so as to know how each of the tech stacks is used and implemented in real projects.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="service-section">
+        <div class="container">
+            <div class="services">
+                <h2>Services Offered</h2>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const humburger = document.querySelector(".humburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        humburger.addEventListener("click", mobileMenu);
+
+        function mobileMenu() {
+            humburger.classList.toggle("active");
+            navMenu.classList.toggle("active")
+        }
+    </script>
+</body>
+</html>
