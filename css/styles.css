@@ -111,14 +111,14 @@ nav{
 .about-section
 {
     background-color: #475569;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
 .service-section{
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
