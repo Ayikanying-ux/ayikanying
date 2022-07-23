@@ -68,7 +68,7 @@ ul{
     color: #fff;
 }
 .connect{
-    display: block;
+    display: inline-block;
 }
 .connect a{
     display: inline-block;
